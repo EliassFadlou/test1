@@ -25,6 +25,8 @@ import javax.swing.JScrollBar;
 import javax.swing.JSlider;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
+import javax.swing.JToolBar;
+import javax.swing.JDesktopPane;
 
 
 
@@ -105,7 +107,7 @@ public class Jframe1 extends JFrame {
 		panel_1.setLayout(null);
 		
 		textPane_1 = new JTextPane();
-		textPane_1.setToolTipText("Write shit here");
+		textPane_1.setToolTipText("Write stuff here");
 		textPane_1.setBounds(6, 6, 298, 77);
 		panel_1.add(textPane_1);
 		
@@ -117,7 +119,7 @@ public class Jframe1 extends JFrame {
 		panel_2.setLayout(null);
 		
 		textPane = new JTextPane();
-		textPane.setToolTipText("Write shit here");
+		textPane.setToolTipText("Write stuff here");
 		textPane.setBounds(6, 6, 549, 100);
 		panel_2.add(textPane);
 			
