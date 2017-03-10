@@ -42,7 +42,7 @@ public class Jframe1 extends JFrame {
 	private JTextPane textPane_1;
 	
 
-	/**
+	/******
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
@@ -62,7 +62,7 @@ public class Jframe1 extends JFrame {
 
 	/**
 	 * Create the frame.
-	 */
+	 **/
 	public Jframe1() {
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
