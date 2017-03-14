@@ -1,4 +1,3 @@
-package test1;
 import java.awt.BorderLayout; 
 import java.awt.EventQueue;
 
@@ -32,6 +31,10 @@ import javax.swing.JDesktopPane;
 
 public class Jframe1 extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private final JTable table_1 = new JTable();
 	private JButton selectButton;
